@@ -18,7 +18,6 @@ GAZEBO_RL
 1. roslaunch px4 mavros_sitl_posix.launch
 2. Open Qground
 3. Hz Setting, First check Callback Hz
-If your Callback Hz below 100, then You have to type "mavros stream -r 200 -s LOCAL_POSITION_NED -u {port_num}" in roslaunch px4 terminal
-
+> If your Callback Hz below 100, then You have to type "mavros stream -r 200 -s LOCAL_POSITION_NED -u {port_num}" in roslaunch px4 terminal
 4. rosrun offboard_node offboard_node_racing_rate
 5. rosrun rl ppo_lstm_hovering_v2.py
