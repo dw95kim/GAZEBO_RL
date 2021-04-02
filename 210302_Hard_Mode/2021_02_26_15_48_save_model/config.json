@@ -1,0 +1,1 @@
+{"tau": 0.01, "dim_laser": 200, "dim_act": 3, "first_hidden_layer": 128, "capacity": 400000, "lr_cr": 0.0005, "batch_size": 1024, "n_agents": 2, "dim_obs": 12, "episodes_before_train": 100, "start_epi": 0, "n_episode": 50000, "n_targets": 1, "lr_ac": 5e-05, "second_hidden_layer": 64, "delay_step": 6, "gamma": 0.95}
